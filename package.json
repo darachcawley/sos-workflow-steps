@@ -1,0 +1,35 @@
+{
+  "name": "sos-workflow-steps",
+  "version": "0.0.1",
+  "description": "SOS Driver Workflow Steps",
+  "main": "lib/angular/sos-workflow-steps-ng.js",
+  "scripts": {
+    "build": "wfm-template-build -m 'wfm.workflow.directives'",
+    "watch": "wfm-template-build -w -m 'wfm.workflow.directives'",
+    "test": "grunt"
+  },
+  "keywords": [
+    "wfm",
+    "workflow"
+  ],
+  "author": "Darach Cawley",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "lodash": "4.7.0",
+    "ng-feedhenry": "0.3.0",
+    "fh-wfm-mediator": "0.0.15",
+    "fh-wfm-result": "0.0.16",
+    "fh-wfm-sync": "0.0.16",
+    "fh-wfm-user": "0.0.25",
+    "wfm-signature": "0.0.1",
+    "sos-workflow": "0.0.3",
+    "sos-workorder": "0.0.4",
+    "mediator-js": "^0.9.9"
+  },
+  "devDependencies": {
+    "fh-wfm-template-build": "0.0.9",
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^18.0.0"
+  }
+}
